@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="marge">
+        <h2 id="texto">Programador full stack</h2>
+        <div class="marge1">
+        <button id="aumentarBtn" >Mas grande</button>
+        <button id="disminuirBtn">Mas chico</button></div>
+    </section>
+
+   
+    <section class="marge2">
+        <button id="anterior">Anterior</button>
+        <img src="imagenes/auto1.jpg" alt="Imagenes" id="carrusel" width="500px">
+        <button id="siguiente">Siguiente</button>
+    </section>
+
+   
+
+    <section class="tarjetas" id="contenedordeTarjetas">
+        <div>
+            <img src="imagenes/empanadas.jpg" alt="empanadas" width="370px" id="imagen">
+            <h2 class="texto">Empanadas</h2>
+          
+            <div class="opcion">
+                <button class="btn btn-primary" onclick="showHide()">
+                    Mostrar/ocultar
+                </button>
+            </div>
+            <p class="texto1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Nostrum 
+                saepe quod nam dolores expedita .</p>
+            <p class="texto1 peso">Mostrar/ocultar</p>
+
+        </div>
+
+
+        <div>
+            <img src="imagenes/pizza.jpeg" alt="pizza" width="370px" id="imagen">
+            <h2 class="texto">Pizza</h2>
+            <p class="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Explicabo 
+                exercitationem voluptas modi </p>
+            <p class="texto1 peso"></p>
+            <div>
+                <button class="peso">Mostrar/ocultar</button>
+            </div>
+        </div>
+
+        <div>
+            <img src="imagenes/hamburguesa.jpeg" alt="hamburguesa" width="370px" id="imagen">
+            <h2 class="texto">hamburguesa</h2> 
+            <p class="texto1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Itaque 
+                necessitatibus tempora odio corrupti impedit eis</p>
+            <p class="texto1 peso"></p>
+            <div>
+                <button class="peso">Mostrar/ocultar</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
